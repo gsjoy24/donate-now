@@ -1,0 +1,228 @@
+/* font for all text */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,700&display=swap');
+
+/* font for footer header */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* all reset reusable styles */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	transition: 300ms;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-ms-transition: 300ms;
+	-o-transition: 300ms;
+}
+p {
+	font-size: 14px;
+	color: rgb(67, 66, 66);
+}
+section {
+	padding: 60px 0;
+	max-width: 900px;
+	margin: auto;
+}
+.section-title,
+.section-description {
+	text-align: center;
+	margin: 15px auto;
+	max-width: 500px;
+}
+.section-description {
+	font-size: 13px;
+}
+.btn-primary {
+	background-color: #ff5959;
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.btn-primary:hover {
+	background-color: #f93b3b;
+}
+
+input:focus-visible {
+	outline: none;
+}
+
+/* header styles */
+.header {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(11, 10, 10, 0.178), rgba(0, 0, 0, 0.648)), url(../images/donation12.png);
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	text-align: center;
+}
+.header-raper h1 {
+	font-size: 50px;
+}
+.header-raper p {
+	color: #fff;
+	font-size: 15px;
+	max-width: 550px;
+	padding: 20px 0;
+}
+.donation-amounts {
+	margin: 80px 100px 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.single-amount {
+	color: rgb(69, 60, 60);
+	padding: 30px;
+	background-color: rgb(177, 174, 174);
+	border: 2px solid #ff585800;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.single-amount:hover {
+	color: #f17676;
+	border: 2px solid #f17676;
+	background-color: #ffeeee;
+}
+.single-amount.active {
+	color: #ff5858;
+	border: 2px solid #ff5858;
+	background-color: #ffeeee;
+}
+.other-amount,
+.other-amount {
+	border: none;
+	border-bottom: 1px solid rgb(61, 54, 54);
+	display: block;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	margin: 50px 0;
+}
+.donation-btn {
+	text-align: center;
+}
+
+/* Our Donate Plan styles */
+.plan-container {
+	display: flex;
+	gap: 20px;
+	margin-top: 50px;
+}
+.plan-item {
+	padding: 40px 20px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+.plan-item img {
+	width: 40px;
+	margin-bottom: 10px;
+}
+.plan-item h4 {
+	line-height: 40px;
+}
+.plan-item:first-child {
+	background-color: rgba(28, 167, 231, 0.276);
+}
+.plan-item:nth-child(2) {
+	background-color: rgba(239, 71, 217, 0.276);
+}
+.plan-item:last-child {
+	background-color: rgba(231, 170, 28, 0.276);
+}
+
+/* Motivation styles */
+.motivation-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.motivation-item:first-child {
+	margin-bottom: 80px;
+}
+.motivation-item > div {
+	max-width: 400px;
+}
+.motivation-item h2 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.motivation-item p {
+	font-size: 12px;
+}
+.motivation-item > div button {
+	margin-top: 30px;
+}
+
+.motivation-item img {
+	max-width: 400px;
+	box-shadow: 1px 2px 5px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+/* Get My Updates */
+
+.get-mail {
+	display: flex;
+	max-width: 600px;
+	margin: auto;
+	padding: 50px 0px;
+	background-color: rgba(239, 71, 217, 0.276);
+	justify-content: center;
+}
+.btn-primary.btn-email {
+	border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	-moz-border-radius: 0px 5px 5px 0px;
+	-ms-border-radius: 0px 5px 5px 0px;
+	-o-border-radius: 0px 5px 5px 0px;
+}
+.get-mail input {
+	border: none;
+	background-color: rgb(255, 253, 253);
+	padding: 0 10px;
+	border-radius: 5px 0px 0px 5px;
+	-webkit-border-radius: 5px 0px 0px 5px;
+	-moz-border-radius: 5px 0px 0px 5px;
+	-ms-border-radius: 5px 0px 0px 5px;
+	-o-border-radius: 5px 0px 0px 5px;
+}
+/* footer styles */
+
+.footer {
+	background-color: rgb(29, 24, 36);
+	text-align: center;
+	padding: 50px 0;
+}
+.footer h2 {
+	font-size: 40px;
+	color: #ff5858;
+	font-family: 'Lobster', cursive;
+	margin-bottom: 30px;
+}
+
+.footer p {
+	color: rgb(183, 172, 172);
+}
